@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Assignment 5. JavaScript Basics</h1>
+    <p class="author">Tamerlan Aitken, IT-2503</p>
+
+    <!-- Part 1 -->
+    <div class="box" id="profileBox">
+        <h2>Part 1: My Profile</h2>
+        <p>Name: <span id="nameText"></span></p>
+        <p>Birth year: <span id="yearText"></span></p>
+        <p>Is developer: <span id="devText"></span></p>
+        <p>Hobbies: <span id="hobbiesText"></span></p>
+    </div>
+
+    <div class="box">
+        <h2>Part 1: Calculations</h2>
+        <p>Age: <span id="ageText"></span> years</p>
+        <p>Age in months (about): <span id="monthsText"></span></p>
+        <p>Number of hobbies: <span id="countText"></span></p>
+    </div>
+
+    <!-- Part 2 -->
+    <div class="box">
+        <h2>Part 2: Create / Update Profile</h2>
+        <form id="profileForm">
+            <label for="usernameInput">Username:</label><br>
+            <input type="text" id="usernameInput" placeholder="Enter your name"><br>
+
+            <label for="yearInput">Birth Year:</label><br>
+            <input type="number" id="yearInput" placeholder="For example 2007"><br>
+
+            <button type="submit" id="submitBtn">Create / Update Profile</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <!-- Part 3 -->
+    <div class="box">
+        <h2>Part 3: My Hobbies List</h2>
+        <ul id="hobbyList">
+        </ul>
+
+        <input type="text" id="itemInput" placeholder="New hobby">
+        <button id="addBtn">Add Item</button>
+        <button id="removeBtn">Remove Item</button>
+        <p id="listMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
