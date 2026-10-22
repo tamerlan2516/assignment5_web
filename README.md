@@ -4,7 +4,7 @@
 **Group:** IT-2503
 
 **GitHub repository:** https://github.com/YOUR_USERNAME/assignment5
-**GitHub Pages:** https://YOUR_USERNAME.github.io/assignment5/
+**GitHub Pages:** https://tamerlan2516.github.io/assignment5/
 
 ## Project files
 
